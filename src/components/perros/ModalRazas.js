@@ -13,6 +13,7 @@ function ModalRazas(props) {
                         <div className="modal-body">
                             {props.pm6}
                             <br/><br/>
+                            <img src={props.pm3} alt='perros' className='img-perros'/>
                             <p><strong>País: </strong>{props.pm7}</p>
                             <p><strong>Tamaño: </strong>{props.pm8}</p>
                             <p><strong>Esperanza de vida promedio: </strong>{props.pm9}</p>
